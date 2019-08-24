@@ -1,0 +1,160 @@
+/* css for dentalKing.in
+   developed by         : rakesh kumar
+   website              : https://binarynote.com
+
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 180%;
+  word-spacing: 110%;
+  color: #666;
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+section {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+  justify-content: space-between;
+}
+.container-1 {
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+.container-normal {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.logo {
+  margin: 0 auto;
+  line-height: 80px;
+}
+
+#slider {
+  background: red;
+}
+
+.email,
+.phone,
+.appointment {
+  flex: 1;
+}
+.email,
+.appointment {
+  background: #dfe6e9;
+  text-align: center;
+}
+.appointment a {
+  text-decoration: none;
+}
+.phone {
+  background: #b2bec3;
+  text-align: center;
+}
+
+/*--------services-----------*/
+#services {
+  padding: 40px 0;
+}
+.service {
+  padding: 20px;
+  flex-basis: 30%;
+}
+.service:nth-child(odd) {
+  /* background: yellow; */
+}
+
+.service p,
+.service a {
+  padding: 10px 0px;
+}
+
+.service a {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/*------about the doctor -----------*/
+#about {
+  padding: 60px 0 60px;
+  background: #f2f2f2;
+}
+
+.image {
+  flex: 1;
+}
+.information {
+  flex: 2;
+  padding: 0 0 0 30px;
+}
+
+/*----testimonials----------*/
+#testimonial {
+  background: url("../images/slider-3.jpg");
+  background-attachment: fixed;
+}
+.container-normal h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+#testimonial p {
+  padding: 60px 0 60px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#associated {
+  background: #f4f6f7;
+}
+
+#case-studies {
+  background-image: url("..images/slider-3.jpg");
+  background-attachment: fixed;
+  padding: 60px 0 80px;
+}
+
+#footer {
+  background: rgb(165, 165, 165);
+  padding: 40px 0 60px;
+}
+.widget {
+  flex: 1;
+  flex-basis: 32%;
+}
+#copyright {
+  background: #222;
+  color: #999;
+  text-align: center;
+}
+#copyright a {
+  color: #999;
+  text-decoration: none;
+}
+#copyright p {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+@media screen and (max-width: 800px) {
+  .container,
+  .container-1 {
+    flex-direction: column;
+  }
+}
