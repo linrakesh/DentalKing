@@ -13,14 +13,18 @@ body {
   color: #666;
   font-family: "Montserrat", sans-serif;
 }
-img {
+/* img {
   width: 100%;
   height: auto;
-}
+} */
 section {
   padding: 0;
   margin: 0;
 }
+/*-------------theme wide css----------*/
+.strong{font-size:125%;font-weight:bolder; }
+
+
 .container {
   margin: 0 auto;
   display: flex;
@@ -74,6 +78,7 @@ section {
 .service {
   padding: 20px;
   flex-basis: 30%;
+  text-align:center;
 }
 .service:nth-child(odd) {
   /* background: yellow; */
@@ -90,18 +95,28 @@ section {
 }
 
 /*------about the doctor -----------*/
-#about {
+#about,#team {
   padding: 60px 0 60px;
   background: #f2f2f2;
+  margin-bottom:-6px;
 }
 
 .image {
   flex: 1;
 }
+.image img{margin-bottom:-55px;text-align:left;float:left;}
 .information {
   flex: 2;
   padding: 0 0 0 30px;
 }
+
+/*-------------Team- Doctors-------------*/
+#team{background:#fff;}
+.doctor {padding:10px;border-radius:10px;  overflow:hidden;transform: scale(1.00);transition:0.5s ease;cursor: pointer;}
+.doctor img{border-radius:10px; }
+.doctor:hover  {transform: scale(1.01);box-shadow:1px 2px 8px #9c9c9c;transition:0.5s ease;}
+.doctor h4{font-size:12px;font-family: "Montserrat", sans-serif;font-weight:none;color:#444; }
+
 
 /*----testimonials----------*/
 #testimonial {
@@ -157,4 +172,5 @@ section {
   .container-1 {
     flex-direction: column;
   }
+  .doctor{flex-basis:50%;}
 }
