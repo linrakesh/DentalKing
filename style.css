@@ -323,6 +323,13 @@ i {
   margin: 0;
   padding: 10px;
 }
+
+/*---------------blog page*----------------*/
+#breadcrumb{padding-top:70px;background:#999;color:#333;margin-bottom:0;padding: 0;}
+/* #breadcrumb ul{margin-bottom: 0;padding: 0;} */
+#blog-content{padding-top:70px;}
+.main-articles{flex-basis:65%;padding:20px;}
+.sidebar{flex-basis:32%;padding:10px;}
 @media screen and (max-width: 800px) {
   .container,
   .container-1 {
