@@ -13,17 +13,58 @@ body {
   color: #666;
   font-family: "Montserrat", sans-serif;
 }
-/* img {
-  width: 100%;
-  height: auto;
-} */
+
 section {
   padding: 0;
   margin: 0;
 }
-/*-------------theme wide css----------*/
-.strong{font-size:125%;font-weight:bolder; }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 160%;
+}
+h3 {
+  font-size: 140%;
+}
+h4 {
+  font-size: 120%;
+}
+i {
+  margin-right: 10px;
+}
+/*-------------theme wide css----------*/
+.strong {
+  font-weight: 700;
+  color: rgb(112, 230, 44);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  padding: 10px 12px;
+  background: rgb(156, 156, 156);
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  padding: 10px 18px;
+  transition: all 0.5s ease;
+}
 
 .container {
   margin: 0 auto;
@@ -44,13 +85,42 @@ section {
   max-width: 1300px;
 }
 
-.logo {
-  margin: 0 auto;
-  line-height: 80px;
+#header {
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 1000;
 }
 
+.logo {
+  margin: 0 auto;
+  flex: 1;
+}
+.menu {
+  flex: 4;
+  line-height: 70px;
+}
+.menu ul {
+  margin-top: 0px;
+  float: right;
+}
+.menu ul li {
+  display: inline-block;
+  line-height: 70px;
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+}
+.menu ul li a:hover {
+  border-bottom: 2px solid orange;
+  transition: all 0.7s ease;
+}
+/*-------------slider---------------*/
 #slider {
   background: red;
+  padding-top: 70px;
 }
 
 .email,
@@ -78,7 +148,7 @@ section {
 .service {
   padding: 20px;
   flex-basis: 30%;
-  text-align:center;
+  text-align: center;
 }
 .service:nth-child(odd) {
   /* background: yellow; */
@@ -95,54 +165,94 @@ section {
 }
 
 /*------about the doctor -----------*/
-#about,#team {
+#about,
+#team {
   padding: 60px 0 60px;
   background: #f2f2f2;
-  margin-bottom:-6px;
+  margin-bottom: -6px;
 }
 
 .image {
   flex: 1;
 }
-.image img{margin-bottom:-55px;text-align:left;float:left;}
+.image img {
+  margin-bottom: -55px;
+  text-align: left;
+  float: left;
+}
 .information {
   flex: 2;
   padding: 0 0 0 30px;
 }
 
 /*-------------Team- Doctors-------------*/
-#team{background:#fff;}
-.doctor {padding:10px;border-radius:10px;  overflow:hidden;transform: scale(1.00);transition:0.5s ease;cursor: pointer;}
-.doctor img{border-radius:10px; }
-.doctor:hover  {transform: scale(1.01);box-shadow:1px 2px 8px #9c9c9c;transition:0.5s ease;}
-.doctor h4{font-size:12px;font-family: "Montserrat", sans-serif;font-weight:none;color:#444; }
-
+#team {
+  background: #fff;
+}
+.doctor {
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  transform: scale(1);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.doctor img {
+  border-radius: 10px;
+}
+.doctor:hover {
+  transform: scale(1.01);
+  box-shadow: 1px 2px 8px #9c9c9c;
+  transition: 0.5s ease;
+}
+.doctor h4 {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: none;
+  color: #444;
+}
 
 /*----testimonials----------*/
 #testimonial {
-  background: url("../images/slider-3.jpg");
+  background: url("../images/tt.png") #b2bec3;
   background-attachment: fixed;
+  /* background: rgb(109, 103, 92); */
+  padding: 80px 0;
 }
+
+#testimonial p {
+  font-size: 120%;
+}
+
 .container-normal h1 {
   margin: 0;
   padding: 20px 0;
-  color: #fff;
   text-align: center;
 }
 #testimonial p {
-  padding: 60px 0 60px;
+  padding: 20px;
   margin-bottom: 0;
   color: #fff;
 }
 
-#associated {
-  background: #f4f6f7;
+#testimonial img {
+  margin: 0 auto;
+}
+
+.company {
+  flex-basis: 18%;
+  padding: 30px;
 }
 
 #case-studies {
   background-image: url("..images/slider-3.jpg");
   background-attachment: fixed;
   padding: 60px 0 80px;
+  background: #f4f6f7;
+}
+
+.case {
+  flex-basis: 48%;
 }
 
 #footer {
@@ -150,8 +260,8 @@ section {
   padding: 40px 0 60px;
 }
 .widget {
-  flex: 1;
   flex-basis: 32%;
+  color: #e7e7e7;
 }
 #copyright {
   background: #222;
@@ -172,5 +282,7 @@ section {
   .container-1 {
     flex-direction: column;
   }
-  .doctor{flex-basis:50%;}
+  .doctor {
+    flex-basis: 50%;
+  }
 }
