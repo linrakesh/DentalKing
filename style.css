@@ -263,6 +263,14 @@ i {
   flex-basis: 32%;
   color: #e7e7e7;
 }
+.widget a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.widget ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
 #copyright {
   background: #222;
   color: #999;
