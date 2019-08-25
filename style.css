@@ -329,7 +329,24 @@ i {
 /* #breadcrumb ul{margin-bottom: 0;padding: 0;} */
 #blog-content{padding-top:70px;}
 .main-articles{flex-basis:65%;padding:20px;}
+.article {border-bottom:1px solid #d4d4d4;padding-bottom:20px;color:#333;}
+.article .meta{font-size:12px;}
+.article h2{margin-bottom:0;}
+.article ul li, .article ol li{padding:5px 0;}
+
+
+
+
 .sidebar{flex-basis:32%;padding:10px;}
+
+
+.pagination ul{display:inline-block;list-style:none;margin-left: -45px;}
+.pagination ul li{float:left;padding:5px 8px;}
+.pagination ul li a{background:orange;color:#fff;padding:10px;}
+
+
+
+
 @media screen and (max-width: 800px) {
   .container,
   .container-1 {
