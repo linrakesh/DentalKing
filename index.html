@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <title>Document</title>
   </head>
   <body>
@@ -29,11 +31,17 @@
     </div>
 </section>
 
-    <div id="slider" class="slider">
-      <img class="responsive" src="images/slider-1.jpg" alt="" />
-    </div>
+ 
+      <section id="slider">
+        <div class="owl-one owl-carousel owl-theme">
+          <div><img src="images/slider-1.jpg" alt=""></div>
+          <div><img src="images/slider-2.jpg" alt=""></div>
+          <div><img src="images/slider-3.jpg" alt=""></div>
+        </div>
+      </section>
 
-    <div id="quick" style="margin-top:-30px;">
+
+    <div id="quick" style="margin-top:0px;">
       <div class="container-1">
         <div class="email">
           <p><i class="fa fa-envelope fa-2x" ></i> rakesh@binarynote.com</p>
@@ -108,7 +116,7 @@
           </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quam cumque possimus rem molestias eius officiis, fugit obcaecati facere ratione modi exercitationem odit quidem hic beatae. Excepturi tenetur eveniet, eligendi aperiam pariatur cumque eaque dolorum dolore. Accusantium ut accusamus autem voluptatum eaque ex quas aut vel explicabo ullam, repellat saepe porro, optio animi repellendus ipsum doloremque, obcaecati voluptates tempora nisi!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sed error modi consectetur minima? Repellat nihil exercitationem at quidem molestias illum numquam accusantium, rem excepturi hic ducimus distinctio vero voluptatibus dolorum perspiciatis ut quia inventore velit corporis beatae fugit corrupti.</p>
-          <a class="button" href="#">Know More...</a>
+          <a class="button black" href="#">Know More...</a>
         </div>
       </div>
     </section>
@@ -193,11 +201,11 @@
 
     <section id="case-studies">
       <div class="container-normal">
-        <h1>Case-studies</h1>
+        <h1> [ Case<span class="strong">-studies</span> ] </h1>
       </div>
       <div class="container">
         <div class="case">
-          <h1>Case-1:Heading of First Case</h1>
+          <h2>Case-1:Heading of First Case</h2>
           <img class ="responsive" src="images/case-1.jpg" alt="">
 
           <p>
@@ -206,9 +214,10 @@
             explicabo, totam alias voluptas mollitia aliquam eligendi tempora
             cupiditate fuga rem accusamus?
           </p>
+          <a href="#">read more</a>
         </div>
         <div class="case">
-          <h1>Case-2:Heading of Second Case</h1>
+          <h2>Case-2:Heading of Second Case</h2>
           <img class="responsive" src="images/case-2.jpg" alt="">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
@@ -216,10 +225,11 @@
             explicabo, totam alias voluptas mollitia aliquam eligendi tempora
             cupiditate fuga rem accusamus?
           </p>
+          <a href="#">read more</a>
         </div>
       </div>
        <div class="container-normal">
-          <p><center><a class="button" href="#">Check out other Case studies</a></center></p>
+          <p><center><a class="button green" href="#">Check out other Case studies</a></center></p>
       </div>
     </section>
 
@@ -237,30 +247,33 @@
         <div class="widget">
           <h3>Heading Two</h3>
           <ul>
-            <li><a href="#">Site link -1</a></li>
-            <li><a href="#">Site link -1</a></li>
-            <li><a href="#">Site link -1</a></li>
-            <li><a href="#">Site link -1</a></li>
-            <li><a href="#">Site link -1</a></li>
+            <li><a href="#">Article</a></li>
+            <li><a href="#">Seminar</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li><a href="#">Happy Dent</a></li>
           </ul>
         </div>
         <div class="widget">
           <h3>Address</h3>
-          <p>
+          <p><strong>Clinic Timing</strong><br/>
             Morning ----------- 9:00AM - 11:00AM <br/>
             Evening ----------- 6:00AM - 10:00PM<br/>
             Sunday Evening and Monday Morning off.
           </p>
-          <p>Address : 164-Surya Nagar ( opp- Mothder Dairy) <br/>
+          <p><strong>Address </strong> : 164-Surya Nagar ( opp- Mothder Dairy) <br/>
                       Ghaziabad-201011
+          </p>
           <p><i class="fa fa-facebook-official fa-2x"></i> <i class="fa fa-twitter fa-2x"></i> <i class="fa fa-instagram fa-2x"></i></p>
 
-          </p>
+
         </div>
       </div>
     </section>
     <section id="copyright">
             <p>All rights reserve to  <a href="https://binarynote.com">Binarynote.com <a></a></p>
     </section>
+    <a href="#" class="return-top"> Top </a>
+    <script src="js/bundle-min.js" type="text/javascript"></script>
   </body>
 </html>
