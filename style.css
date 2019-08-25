@@ -183,6 +183,8 @@ i {
   margin-bottom: -6px;
 }
 
+
+
 .image {
   flex: 1;
 }
@@ -200,6 +202,10 @@ i {
 #team {
   background: #fff;
 }
+#team h1{margin-bottom:20px;position:relative;}
+#team h1:after{content:'';position:absolute;top:0;left:63%;height:2px;background:orange;margin-top:35px;width:40px;}
+#team h1:before{content:'';position:absolute;top:0;left:34%;height:2px;background:orange;margin-top:35px;width:40px;}
+
 .doctor {
   padding: 10px;
   border-radius: 10px;
@@ -231,9 +237,11 @@ i {
   padding: 80px 0;
 }
 
+#testimonial h1{color:#fff;}
 #testimonial p {
   font-size: 120%;
-}
+  position:relative;
+}#testimonial p:before{content:'"';top:0;left:0;margin-top:10px;font-size:48px;font-family:'Trebuchet MS', sans-serif;color:orange; }
 
 .container-normal h1 {
   margin: 0;
@@ -256,11 +264,14 @@ i {
 }
 
 #case-studies {
-  background-image: url("..images/slider-3.jpg");
-  background-attachment: fixed;
   padding: 60px 0 80px;
   background: #f4f6f7;
+  position:relative;
 }
+
+#case-studies h1:after{content:'';position:absolute;top:0;left:57%;height:2px;background:orange;margin-top:95px;width:40px;}
+#case-studies h1:before{content:'';position:absolute;top:0;left:41%;height:2px;background:orange;margin-top:95px;width:40px;}
+
 
 .case {
   flex-basis: 48%;
