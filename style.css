@@ -267,9 +267,13 @@ i {
   text-decoration: none;
   color: #f2f2f2;
 }
+
 .widget ul {
   list-style-type: none;
   margin-left: -40px;
+}
+
+.widget h3 {
 }
 #copyright {
   background: #222;
