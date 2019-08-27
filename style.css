@@ -65,19 +65,26 @@ i {
   transition: all 0.5s ease;
 }
 
-.black{background:rgb(156, 156, 156);}
-.green{background:rgb(113, 136, 53);}
-.orange{background:rgb(255, 165, 0);}
+.black {
+  background: rgb(156, 156, 156);
+}
+.green {
+  background: rgb(113, 136, 53);
+}
+.orange {
+  background: rgb(255, 165, 0);
+}
 
-.return-top{
-        position:fixed;
-        right:50px;        
-        bottom:150px;
-        widows: 60px;
-        height:30px;
-        padding:10px;
-        text-decoration: none;
-        background:#000;color:#fff
+.return-top {
+  position: fixed;
+  right: 50px;
+  bottom: 150px;
+  widows: 60px;
+  height: 30px;
+  padding: 10px;
+  text-decoration: none;
+  background: #000;
+  color: #fff;
 }
 /*-----------end of theme wide css ---------*/
 
@@ -183,8 +190,6 @@ i {
   margin-bottom: -6px;
 }
 
-
-
 .image {
   flex: 1;
 }
@@ -202,9 +207,30 @@ i {
 #team {
   background: #fff;
 }
-#team h1{margin-bottom:20px;position:relative;}
-#team h1:after{content:'';position:absolute;top:0;left:63%;height:2px;background:orange;margin-top:35px;width:40px;}
-#team h1:before{content:'';position:absolute;top:0;left:34%;height:2px;background:orange;margin-top:35px;width:40px;}
+#team h1 {
+  margin-bottom: 20px;
+  position: relative;
+}
+#team h1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 63%;
+  height: 2px;
+  background: orange;
+  margin-top: 35px;
+  width: 40px;
+}
+#team h1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 34%;
+  height: 2px;
+  background: orange;
+  margin-top: 35px;
+  width: 40px;
+}
 
 .doctor {
   padding: 10px;
@@ -237,11 +263,22 @@ i {
   padding: 80px 0;
 }
 
-#testimonial h1{color:#fff;}
+#testimonial h1 {
+  color: #fff;
+}
 #testimonial p {
   font-size: 120%;
-  position:relative;
-}#testimonial p:before{content:'"';top:0;left:0;margin-top:10px;font-size:48px;font-family:'Trebuchet MS', sans-serif;color:orange; }
+  position: relative;
+}
+#testimonial p:before {
+  content: '"';
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  font-size: 48px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: orange;
+}
 
 .container-normal h1 {
   margin: 0;
@@ -266,19 +303,36 @@ i {
 #case-studies {
   padding: 60px 0 80px;
   background: #f4f6f7;
-  position:relative;
+  position: relative;
 }
 
-#case-studies h1:after{content:'';position:absolute;top:0;left:57%;height:2px;background:orange;margin-top:95px;width:40px;}
-#case-studies h1:before{content:'';position:absolute;top:0;left:41%;height:2px;background:orange;margin-top:95px;width:40px;}
-
+#case-studies h1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 57%;
+  height: 2px;
+  background: orange;
+  margin-top: 95px;
+  width: 40px;
+}
+#case-studies h1:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 41%;
+  height: 2px;
+  background: orange;
+  margin-top: 95px;
+  width: 40px;
+}
 
 .case {
   flex-basis: 48%;
 }
 
 #footer {
-  background: linear-gradient(rgb(113, 136, 53),rgb(115, 116, 53));
+  background: linear-gradient(rgb(113, 136, 53), rgb(115, 116, 53));
   padding: 40px 0 60px;
 }
 .widget {
@@ -296,21 +350,19 @@ i {
 }
 
 .widget h3 {
-<<<<<<< HEAD
-=======
-  color:rgb(255, 255, 52);
-  text-shadow:1px 1px 2px #444; padding-bottom:20px;
-  position:relative;
+  color: rgb(255, 255, 52);
+  text-shadow: 1px 1px 2px #444;
+  padding-bottom: 20px;
+  position: relative;
 }
-.widget h3:after{
-  content:'';
-  position:absolute;
-  left:0;
-  top:40px;
-  height:1px;
-  width:10%;
-  background:rgb(255, 255, 52);
->>>>>>> 66629db1ff7f511d53bd8b33ccecc40364d0b523
+.widget h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40px;
+  height: 1px;
+  width: 10%;
+  background: rgb(255, 255, 52);
 }
 #copyright {
   background: #222;
@@ -328,27 +380,56 @@ i {
 }
 
 /*---------------blog page*----------------*/
-#breadcrumb{padding-top:70px;background:#999;color:#333;margin-bottom:0;padding: 0;}
+#breadcrumb {
+  padding-top: 70px;
+  background: #999;
+  color: #333;
+  margin-bottom: 0;
+  padding: 0;
+}
 /* #breadcrumb ul{margin-bottom: 0;padding: 0;} */
-#blog-content{padding-top:70px;}
-.main-articles{flex-basis:65%;padding:20px;}
-.article {border-bottom:1px solid #d4d4d4;padding-bottom:20px;color:#333;}
-.article .meta{font-size:12px;}
-.article h2{margin-bottom:0;}
-.article ul li, .article ol li{padding:5px 0;}
+#blog-content {
+  padding-top: 70px;
+}
+.main-articles {
+  flex-basis: 65%;
+  padding: 20px;
+}
+.article {
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 20px;
+  color: #333;
+}
+.article .meta {
+  font-size: 12px;
+}
+.article h2 {
+  margin-bottom: 0;
+}
+.article ul li,
+.article ol li {
+  padding: 5px 0;
+}
 
+.sidebar {
+  flex-basis: 32%;
+  padding: 10px;
+}
 
-
-
-.sidebar{flex-basis:32%;padding:10px;}
-
-
-.pagination ul{display:inline-block;list-style:none;margin-left: -45px;}
-.pagination ul li{float:left;padding:5px 8px;}
-.pagination ul li a{background:orange;color:#fff;padding:10px;}
-
-
-
+.pagination ul {
+  display: inline-block;
+  list-style: none;
+  margin-left: -45px;
+}
+.pagination ul li {
+  float: left;
+  padding: 5px 8px;
+}
+.pagination ul li a {
+  background: orange;
+  color: #fff;
+  padding: 10px;
+}
 
 @media screen and (max-width: 800px) {
   .container,
