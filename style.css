@@ -26,6 +26,7 @@ h4,
 h5,
 h6 {
   font-weight: 400;
+  display: block;
 }
 h1 {
   font-size: 200%;
@@ -163,8 +164,8 @@ i {
 }
 /*----------breadcrumb-----------*/
 #breadcrumb {
-  padding-top: 70px;
-  height: 40px;
+  /* padding-top: 70px; */
+  /* height: 40px; */
   background: #e1e1e1;
   color: #444;
 }
@@ -200,7 +201,7 @@ i {
 }
 
 .image {
-  flex-basis: 50%;
+  flex-basis: 48%;
 }
 .image img {
   margin-bottom: -55px;
@@ -208,7 +209,7 @@ i {
   float: left;
 }
 .information {
-  flex-basis: 50%;
+  flex-basis: 48%;
   padding: 0 0 0 30px;
 }
 .information p {
@@ -294,7 +295,7 @@ i {
 .container-normal h1 {
   margin: 0;
   padding: 20px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 #testimonial p {
   padding: 20px;
@@ -393,6 +394,7 @@ i {
 /* #breadcrumb ul{margin-bottom: 0;padding: 0;} */
 #blog-content {
   /* padding-top: 70px; */
+  padding: 0;
 }
 .main-articles {
   flex-basis: 65%;
