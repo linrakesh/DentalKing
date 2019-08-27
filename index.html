@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style.css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
     <title>Document</title>
   </head>
   <body>
  <section id="header">
     <div class="container">
-      <div class="logo">
+      <div class="logo" style="margin-top:4px;">
         <img src="images/2.png" alt=""  height="60px"/>
       </div>
       <div class="menu">
@@ -22,10 +22,10 @@
            <li><a href="#">Home</a></li>
            <li><a href="about.html">About us</a></li>
            <li><a href="#">Article</a></li>
-           <li><a href="#">Seminar</a></li>
+           <li><a href="seminar.html">Seminar</a></li>
            <li><a href="blog.html">Blog</a></li>
            <li><a href="#">Case Studies</a></li>
-           <li><a href="#">Happy Dent</a></li>
+           <li><a href="Test.html">Sentiments</a></li>
            <li><a href="404.html">404 Page</a></li>
            <li><a href="contact.html">Contact us</a></li>
          </ul>
@@ -34,13 +34,14 @@
 </section>
 
 
-      <section id="slider">
-        <div class="owl-one owl-carousel owl-theme">
-          <div><img src="images/slider-1.jpg" alt=""></div>
-          <div><img src="images/slider-2.jpg" alt=""></div>
-          <div><img src="images/slider-3.jpg" alt=""></div>
-        </div>
-      </section>
+<section id="slider">
+  <div class="owl-one owl-carousel owl-theme">
+    <div><img src="images/slider-1.jpg" alt=""></div>
+    <div><img src="images/slider-2.jpg" alt=""></div>
+    <div><img src="images/slider-2.jpg" alt=""></div>
+
+  </div>
+</section>
 
 
     <div id="quick" style="margin-top:0px;">
@@ -102,9 +103,10 @@
       <div class="container-1">
         <div class="image">
           <img class="responsive" src="images/doctor-1.png" alt="" />
+          <!-- <iframe width="100%" height="515" src="https://www.youtube.com/embed/-WFobqKlcfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
         <div class="information">
-          <h1>About <span class="strong">Hemant Israni</span></h1>
+          <h1>video Tour<span class="strong"> Dental King</span></h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
             velit incidunt harum quidem, autem, pariatur fuga, adipisci corporis
@@ -203,7 +205,7 @@
 
     <section id="case-studies">
       <div class="container-normal">
-        <h1> [ Case<span class="strong">-studies</span> ] </h1>
+        <h1><center>[ Case<span class="strong">-studies</span> ]</center> </h1>
       </div>
       <div class="container">
         <div class="case">
@@ -276,6 +278,19 @@
             <p>All rights reserve to  <a href="https://binarynote.com">Binarynote.com <a></a></p>
     </section>
     <a href="#" class="return-top"> Top </a>
-    <script src="js/bundle-min.js" type="text/javascript"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    dots:true,
+    items:1
+
+})
+</script>
   </body>
 </html>
