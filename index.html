@@ -165,43 +165,15 @@
 
 
     <section id="testimonial">
-      <div class="container-normal">
-        <h1>[ Our Patient's Views about us ] </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-          magni dolorem repudiandae temporibus earum quisquam a eos, omnis
-          cumque unde repellendus, iste assumenda tempora commodi nostrum minus
-          expedita blanditiis rerum odit enim hic delectus labore. Illum esse
-          laboriosam eligendi excepturi amet enim accusantium tempore velit
-          ipsum. Perspiciatis quod voluptatem ea.
-        </p>
-
-      </div>
-    </section>
-
-    <section id="associated">
       <div class="container">
-        <div class="company">
-            <img class="responsive" src="images/logo/logo_01.png" alt="" />
-        </div>
-        <div class="company">
-          <img class="responsive" src="images/logo/logo_02.png" alt="" />
-        </div>
-
-        <div class="company">
-          <img class="responsive" src="images/logo/logo_03.png" alt="" />
-        </div>
-
-        <div class="company">
-          <img class="responsive" src="images/logo/logo_04.png" alt="" />
-        </div>
-
-        <div class="company">
-          <img class="responsive" src="images/logo/logo_05.png" alt="" />
-        </div>
-
+        <div><span class="counter">1234234</span><br>Artisans</div>
+        <div><span class="counter">3455 </span><br>Livelihood Impacted</div>
+        <div><span class="counter">3456 </span><br>Bulk Buyers</div>
+        <div><span class="counter">201</span><br>Countries</div>
       </div>
     </section>
+
+
 
     <section id="case-studies">
       <div class="container-normal">
@@ -234,6 +206,30 @@
       </div>
        <div class="container-normal">
           <p><center><a class="button green" href="#">Check out other Case studies</a></center></p>
+      </div>
+    </section>
+
+    <section id="associated">
+      <div class="container">
+        <div class="company">
+            <img class="responsive" src="images/logo/logo_01.png" alt="" />
+        </div>
+        <div class="company">
+          <img class="responsive" src="images/logo/logo_02.png" alt="" />
+        </div>
+
+        <div class="company">
+          <img class="responsive" src="images/logo/logo_03.png" alt="" />
+        </div>
+
+        <div class="company">
+          <img class="responsive" src="images/logo/logo_04.png" alt="" />
+        </div>
+
+        <div class="company">
+          <img class="responsive" src="images/logo/logo_05.png" alt="" />
+        </div>
+
       </div>
     </section>
 
@@ -283,14 +279,20 @@
 			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 			  crossorigin="anonymous"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
     <script>
     $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
     dots:true,
     items:1
-
-})
+    });
+</script>
+<script>
+   $('.counter').counterUp({
+                delay: 10,
+                time: 5000
+            });
 </script>
   </body>
 </html>

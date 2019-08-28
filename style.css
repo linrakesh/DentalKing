@@ -96,6 +96,7 @@ i {
   display: flex;
   width: 100%;
   max-width: 1300px;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .container-1 {
@@ -217,7 +218,7 @@ i {
 }
 .information {
   flex-basis: 48%;
-  padding: 0 0 0 30px;
+  /* padding: 0 0 0 30px; */
 }
 .information p {
   margin-top: -5px;
@@ -252,20 +253,24 @@ i {
 } */
 
 .doctor {
-  padding: 10px;
+  flex-basis: 24%;
+  /* padding: 10px; */
   border-radius: 10px;
   overflow: hidden;
   transform: scale(1);
   transition: 0.5s ease;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .doctor img {
   border-radius: 10px;
 }
 .doctor:hover {
+  padding: 10px;
   transform: scale(1.01);
   box-shadow: 1px 2px 8px #9c9c9c;
   transition: 0.5s ease;
+  box-sizing: border-box;
 }
 .doctor h4 {
   font-size: 12px;
@@ -304,10 +309,13 @@ i {
   padding: 20px 0;
   /* text-align: center; */
 }
-#testimonial p {
+#testimonial div {
   padding: 20px;
   margin-bottom: 0;
   color: #fff;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
 }
 
 #testimonial img {
@@ -317,6 +325,7 @@ i {
 .company {
   flex-basis: 18%;
   padding: 30px;
+  box-sizing: border-box;
 }
 
 #case-studies {
@@ -401,6 +410,7 @@ i {
 /* #breadcrumb ul{margin-bottom: 0;padding: 0;} */
 #blog-content {
   /* padding-top: 70px; */
+  margin: 30px 0;
   padding: 0;
 }
 .main-articles {
@@ -473,6 +483,8 @@ i {
   .container,
   .container-1 {
     flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
   }
   .doctor {
     flex-basis: 50%;
