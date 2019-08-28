@@ -404,7 +404,8 @@ i {
 #copyright p {
   text-align: center;
   margin: 0;
-  padding: 10px;
+  padding: 6px;
+  font-size: 12px;
 }
 
 /* #breadcrumb ul{margin-bottom: 0;padding: 0;} */
