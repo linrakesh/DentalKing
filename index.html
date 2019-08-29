@@ -19,7 +19,7 @@
       </div>
       <div class="menu">
          <ul>
-           <li><a href="#">Home</a></li>
+           <li><a href="index.html">Home</a></li>
            <li><a href="about.html">About us</a></li>
            <li><a href="article.html">Article</a></li>
            <li><a href="seminar.html">Seminar</a></li>
@@ -134,7 +134,7 @@
       <div class="container-1">
         <div class="doctor">
           <img class="responsive" src="images/doctor-4.jpg" alt="">
-          <h4>Dr. Sanjay Singh</h4>
+          <h4><a href="single_doctor.html"> Dr. Sanjay Singh </a></h4>
           <p></p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laudantium corrupti? Eligendi, iusto tempora omnis id incidunt saepe ducimus unde laborum nisi blanditiis? Iusto, distinctio.</p>
           <p><i class="fa fa-facebook-official fa-2x"></i> <i class="fa fa-twitter fa-2x"></i> <i class="fa fa-instagram fa-2x"></i></p>
         </div>
@@ -166,10 +166,10 @@
 
     <section id="testimonial">
       <div class="container">
-        <div><span class="counter">1234234</span><br>Artisans</div>
+        <div><span class="counter">1224</span><br>Artisans</div>
         <div><span class="counter">3455 </span><br>Livelihood Impacted</div>
         <div><span class="counter">3456 </span><br>Bulk Buyers</div>
-        <div><span class="counter">201</span><br>Countries</div>
+        <div><span class="counter">2011</span><br>Countries</div>
       </div>
     </section>
 
@@ -205,7 +205,7 @@
         </div>
       </div>
        <div class="container-normal">
-          <p><center><a class="button green" href="#">Check out other Case studies</a></center></p>
+          <p><center><a class="button green" href="cases.html">Check out other Case studies</a></center></p>
       </div>
     </section>
 
@@ -235,7 +235,7 @@
 
     <section id="footer">
       <div class="container">
-        <div class="widget">
+        <div class="footer-widget">
           <h3>Heading one</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
@@ -244,7 +244,7 @@
             esse repellendus.
           </p>
         </div>
-        <div class="widget">
+        <div class="footer-widget">
           <h3>Heading Two</h3>
           <ul>
             <li><a href="#">Article</a></li>
@@ -254,7 +254,7 @@
             <li><a href="#">Happy Dent</a></li>
           </ul>
         </div>
-        <div class="widget">
+        <div class="footer-widget">
           <h3>Address</h3>
           <p><strong>Clinic Timing</strong><br/>
             Morning ----------- 9:00AM - 11:00AM <br/>
@@ -274,12 +274,9 @@
             <p>All rights reserve to XYZ.com, WordPress theme Designed by <a href="https://binarynote.com">Binarynote.com <a></a></p>
     </section>
     <a href="#" class="return-top"> Top </a>
-    <script
-			  src="https://code.jquery.com/jquery-3.4.1.js"
-			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
-    <script src="js/bundle-min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+
+   <script src="js/bundle-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script>
     $('.owl-carousel').owlCarousel({
@@ -290,10 +287,12 @@
     });
 </script>
 <script>
-   $('.counter').counterUp({
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
                 delay: 10,
-                time: 5000
+                time: 1000
             });
-</script>
+        });
+    </script>
   </body>
 </html>
