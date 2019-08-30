@@ -48,6 +48,7 @@ i {
 /*-------------theme wide css----------*/
 .strong {
   font-weight: 700;
+  color: #22313f;
 }
 
 .responsive {
@@ -237,7 +238,9 @@ i {
 }
 /*-------------Team- Doctors-------------*/
 #team {
-  background: #fff;
+  background: url("images/bg-1.svg") #fff;
+  background-origin: 50%;
+  background-attachment: fixed;
 }
 #team h1 {
   margin-bottom: 20px;
@@ -266,6 +269,7 @@ i {
 
 .doctor {
   flex-basis: 24%;
+  background: #fff;
   padding: 10px;
   border-radius: 10px;
   overflow: hidden;
@@ -595,6 +599,15 @@ i {
   border-radius: 5px;
   font-size: 18px;
 }
+
+.error-404 {
+  text-align: center;
+}
+.error-404 h1 {
+  font-size: 104px;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 800px) {
   .container,
   .container-1 {
