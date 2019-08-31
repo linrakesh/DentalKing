@@ -12,6 +12,8 @@ body {
   word-spacing: 110%;
   color: #666;
   font-family: "Montserrat", sans-serif;
+  background: url("images/background.svg");
+  background-attachment: fixed;
 }
 
 section {
@@ -238,7 +240,7 @@ i {
 }
 /*-------------Team- Doctors-------------*/
 #team {
-  background: url("images/bg-1.svg") #fff;
+  background: url("images/background.svg") #fff;
   background-origin: 50%;
   background-attachment: fixed;
 }
@@ -351,7 +353,7 @@ i {
 
 #case-studies {
   padding: 60px 0 80px;
-  background: #f4f6f7;
+  /* background: #f4f6f7; */
   position: relative;
 }
 /*
