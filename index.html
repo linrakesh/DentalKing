@@ -69,7 +69,7 @@
             sequi? Sit qui quidem veniam commodi culpa dolorem molestias
             quaerat. Totam possimus sunt cum.
           </p>
-          <a href="#">read more</a>
+          <a class="button orange" href="#"> read more </a>
         </div>
         <div class="service">
         <img src="images/f2.png" alt="" />
@@ -80,7 +80,7 @@
             sequi? Sit qui quidem veniam commodi culpa dolorem molestias
             quaerat. Totam possimus sunt cum.
           </p>
-          <a href="#">read more</a>
+          <a class="button orange" href="#"> read more </a>
         </div>
         <div class="service">
         <img src="images/f3.png" alt="" />
@@ -91,7 +91,7 @@
             sequi? Sit qui quidem veniam commodi culpa dolorem molestias
             quaerat. Totam possimus sunt cum.
           </p>
-          <a href="#">read more</a>
+          <a class="button orange" href="#"> read more </a>
         </div>
 
       </div>
@@ -130,28 +130,27 @@
           <img class="responsive" src="images/doctor-4.jpg" alt="">
           <h4><a href="single_doctor.html"> Dr. Sanjay Singh </a></h4>
           <p></p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laudantium corrupti? Eligendi, iusto tempora omnis id incidunt saepe ducimus unde laborum nisi blanditiis? Iusto, distinctio.</p>
-          <p><i class="fa fa-facebook-official fa-2x"></i> <i class="fa fa-twitter fa-2x"></i> <i class="fa fa-instagram fa-2x"></i></p>
-        </div>
+          <p class="social-icon"><i class="facebook fa fa-facebook-official fa-2x"></i> <i class="twitter fa fa-twitter fa-2x"></i> <i class="instagram fa fa-instagram fa-2x"></i></p>        </div>
         <div class="doctor">
           <img class="responsive" src="images/doctor-3.jpg" alt="">
           <h4>Dr. MAdhu Sharma</h4>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laudantium corrupti? Eligendi, iusto tempora
             omnis id incidunt saepe ducimus unde laborum nisi blanditiis? Iusto, distinctio.</p>
-            <p><i class="fa fa-facebook-official fa-2x"></i> <i class="fa fa-twitter fa-2x"></i> <i class="fa fa-instagram fa-2x"></i></p>
+            <p class="social-icon"><i class="facebook fa fa-facebook-official fa-2x"></i> <i class="twitter fa fa-twitter fa-2x"></i> <i class="instagram fa fa-instagram fa-2x"></i></p>
         </div>
         <div class="doctor">
           <img  class="responsive"  src="images/doctor-4.jpg" alt="">
           <h4>Dr. Udit Raj </h4>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laudantium corrupti? Eligendi, iusto tempora
             omnis id incidunt saepe ducimus unde laborum nisi blanditiis? Iusto, distinctio.</p>
-            <p><i class="fa fa-facebook-official fa-2x"></i> <i class="fa fa-twitter fa-2x"></i> <i class="fa fa-instagram fa-2x"></i></p>
+            <p class="social-icon"><i class="facebook fa fa-facebook-official fa-2x"></i> <i class="twitter fa fa-twitter fa-2x"></i> <i class="instagram fa fa-instagram fa-2x"></i></p>
         </div>
         <div class="doctor">
           <img class="responsive" src="images/doctor-3.jpg" alt="">
           <h4>Dr. Sanjay Singh</h4>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, laudantium corrupti? Eligendi, iusto tempora
             omnis id incidunt saepe ducimus unde laborum nisi blanditiis? Iusto, distinctio.</p>
-          <p><i class="fa fa-facebook-official fa-2x"></i> <i class="fa fa-twitter fa-2x"></i> <i class="fa fa-instagram fa-2x"></i></p>
+          <p class="social-icon"><i class="facebook fa fa-facebook-official fa-2x"></i> <i class="twitter fa fa-twitter fa-2x"></i> <i class="instagram fa fa-instagram fa-2x"></i></p>
         </div>
       </div>
 
@@ -160,10 +159,10 @@
 
     <section id="testimonial">
       <div class="container">
-        <div><span class="counter">1224</span><br>Artisans</div>
-        <div><span class="counter">3455 </span><br>Livelihood Impacted</div>
-        <div><span class="counter">3456 </span><br>Bulk Buyers</div>
-        <div><span class="counter">2011</span><br>Countries</div>
+        <div><span class="counter">1224</span><br/> Appointments</div>
+        <div><span class="counter">3455 </span><br> Patients </div>
+        <div><span class="counter">3456 </span><br/> Cases </div>
+        <div><span class="counter">2011</span><br/>  Articles </div>
       </div>
     </section>
 
@@ -270,23 +269,21 @@
     <a href="#" class="return-top"> Top </a>
 
    <script src="js/bundle-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script>
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:0,
-    dots:true,
-    items:1
-    });
-</script>
-<script>
-        jQuery(document).ready(function($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        dots:true,
+        items:1
         });
+    </script>
+    <script>
+          $('.counter').counterUp({
+            delay:10,
+            time:3000
+          });
     </script>
   </body>
 </html>

@@ -13,7 +13,6 @@ body {
   color: #666;
   font-family: "Montserrat", sans-serif;
   background: url("images/background.svg");
-  background-size:cover;
   background-attachment: fixed;
 }
 
@@ -57,6 +56,14 @@ i {
 .responsive {
   width: 100%;
   height: auto;
+}
+.button1 {
+  padding: 10px 12px;
+  background: orange;
+  border-radius: 5px solid #444;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.5s ease;
 }
 
 .button {
@@ -105,6 +112,18 @@ i {
   text-decoration: none;
   background: #000;
   color: #fff;
+}
+.social-icon {
+  font-size: 12px;
+}
+.facebook {
+  color: blue;
+}
+.twitter {
+  color: #81cfe0;
+}
+.instagram {
+  color: red;
 }
 /*-----------end of theme wide css ---------*/
 
@@ -221,7 +240,7 @@ i {
 #about,
 #team {
   padding: 60px 0 60px;
-  background:#f2f2f2;
+  background: #f2f2f2;
   margin-bottom: -6px;
 }
 
@@ -241,8 +260,9 @@ i {
 }
 /*-------------Team- Doctors-------------*/
 #team {
-  background:transparent;
-  
+  background: url("images/background.svg") #fff;
+  background-origin: 50%;
+  background-attachment: fixed;
 }
 #team h1 {
   margin-bottom: 20px;
@@ -383,7 +403,8 @@ i {
 }
 
 #footer {
-  background-image: linear-gradient(to bottom right, #22313f, #22313f);
+  background: url("images/overlays/01.png");
+  background: linear-gradient(to bottom right, #22313f, #22313f);
   padding: 40px 0 60px;
 }
 /*---------footer-widget--------------*/
