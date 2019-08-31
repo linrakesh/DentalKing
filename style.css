@@ -13,6 +13,7 @@ body {
   color: #666;
   font-family: "Montserrat", sans-serif;
   background: url("images/background.svg");
+  background-size:cover;
   background-attachment: fixed;
 }
 
@@ -240,9 +241,8 @@ i {
 }
 /*-------------Team- Doctors-------------*/
 #team {
-  background: url("images/background.svg") #fff;
-  background-origin: 50%;
-  background-attachment: fixed;
+  background:transparent;
+  
 }
 #team h1 {
   margin-bottom: 20px;
